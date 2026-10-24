@@ -18,7 +18,7 @@ To document the SEO decisions made in the redesign, separate what was built from
 **[Implemented]**
 - Unique `<title>` and meta description on each page.
 - One `<h1>` per page, then `<h2>` sections and `<h3>` items without skipped levels.
-- Canonical link on each page using the placeholder `https://YOUR-DOMAIN.vercel.app`.
+- Canonical link on each page using the placeholder `https://https://funngro-website-henna.vercel.app/`.
 - Open Graph and Twitter Card tags per page.
 - `robots.txt` allowing all crawling and pointing to the sitemap.
 - `sitemap.xml` listing three URLs.
@@ -35,7 +35,7 @@ To document the SEO decisions made in the redesign, separate what was built from
 ## 6. Technical SEO analysis
 - **[Implemented]** Static HTML, so content is available without JavaScript.
 - **[Implemented]** Canonicals, sitemap and robots.txt are consistent in form.
-- **[To do]** Replace every `YOUR-DOMAIN.vercel.app` in canonicals, Open Graph URLs, `robots.txt` and `sitemap.xml` after deployment.
+- **[To do]** Replace every `https://funngro-website-henna.vercel.app/` in canonicals, Open Graph URLs, `robots.txt` and `sitemap.xml` after deployment.
 - **[To do]** Decide on `.html` URLs or clean URLs (Vercel `cleanUrls`) and keep canonicals and sitemap in sync.
 - **[To do]** Add `Organization` structured data only after confirming legal name, logo and official profiles.
 - **[To do]** No `og:image` is set because no verified brand image was available. Add a 1200x630 image and `twitter:card=summary_large_image`.
